@@ -1,0 +1,26 @@
+
+
+QUERY:
+       
+Display the highest paid employee in each departments.
+
+ 
+
+Here we use GROUP BY query
+Refer :
+ https://www.geeksforgeeks.org/sql-group-by/?ref=lbp
+We are categorize maximum salary based on deptno
+First data separeated into department wise then max is applied for each function.
+
+
+SELECT max(sal),deptno
+FROM emp
+GROUP BY deptno;
+
+Suppose want to find employess in each department
+
+Count return number of rows in tabel
+
+SELECT COUNT(*),deptno
+FROM emp
+GROUP BY deptno;
