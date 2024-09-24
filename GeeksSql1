@@ -1,0 +1,15 @@
+##Find Second highest salary of an employee?##
+
+2 approach here--> NOT IN   operator and < operator     
+ /Here we first creating a result set excluding first highest salary i.e max(sal)
+Again applying max(sal) on the result would fetch the second highest salary.
+
+
+
+SELECT max(sal) FROM emp
+WHERE sal NOT IN (SELECT max(sal) FROM emp);
+
+
+
+SELECT max(sal) FROM emp
+WHERE sal < (SELECT max(sal) FROM emp);
