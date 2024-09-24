@@ -1,2 +1,4 @@
 # Daily_Task
-            I am continously learning and try to skill up myself. so I put my daily task here to make continuous learning.
+I am continously learning and try to skill up myself.
+so I put my daily task here to make continuous learning.
+Daily TAsk completing build our confidence.
